@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Know</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script/action.js"></script>
+</head>
+
+<body style="background-color: black">
+    <div class="d-flex justify-content-center">
+        <div class="card w-50 m-3">
+            <div class="d-flex justify-content-center">
+                <img id="image" class="card-img-top m-3" style="width: 15rem; height: 15rem; border-radius: 5rem"/>
+            </div>
+            <div class="card-header" id="description"></div>
+            <div class="card-body">
+                <h5 class="card-title" id="title"></h5>
+                <p class="card-text" id="extract"></p>
+                <a href="javascript:location.reload(true)" class="btn btn-success">I didn't know that</a>
+                <a href="javascript:location.reload(true)" class="btn btn-primary">I already knew that</a>
+                <a href="javascript:location.reload(true)" class="btn btn-danger">Not interested</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
